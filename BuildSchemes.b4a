@@ -1,0 +1,729 @@
+﻿Version=5.2
+NumberOfModules=2
+Module1=AnimatedSlidingMenu
+Module2=Starter
+Build1=Default,com.serogen.sbsifmc
+ManifestCode=AddManifestText(~\n~<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="22"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~~\n~'SetActivityAttribute(Main, android:theme, @style/Material)~\n~'SetApplicationAttribute(android:theme, "@style/Material")~\n~~\n~'SetActivityAttribute(Main, android:theme, "@style/DefaultTheme")~\n~'SetApplicationAttribute(android:theme, "@style/DefaultTheme")~\n~~\n~'SetApplicationAttribute(android:theme, "@android:style/Theme.Holo")~\n~'SetApplicationAttribute(android:theme, "@android:style/Theme.Holo.Light")~\n~SetApplicationAttribute(android:largeHeap,"true")~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~AddPermission (android.permission.INTERNET)~\n~'AddPermission (android.permission.READ_PHONE_STATE)~\n~AddPermission (android.permission.ACCESS_NETWORK_STATE)~\n~AddPermission (android.permission.ACCESS_COARSE_LOCATION)~\n~'End Appodeal Permissions~\n~'Appodeal~\n~AddApplicationText(~\n~  <meta-data android:name="com.appodeal.framework" android:value="b4a" />~\n~  <receiver android:name="com.appodeal.ads.AppodealPackageAddedReceiver" android:exported="true" android:enabled="true">~\n~  <intent-filter>~\n~    <action android:name="android.intent.action.PACKAGE_ADDED" />~\n~    <data android:scheme="package" />~\n~  </intent-filter>~\n~  </receiver>~\n~~\n~<activity android:name="com.appodeal.ads.InterstitialActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" />~\n~<activity android:name="com.appodeal.ads.VideoActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" />~\n~<activity android:name="com.appodeal.ads.LoaderActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" />~\n~<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />~\n~<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" />~\n~<activity android:name="com.chartboost.sdk.CBImpressionActivity" android:excludeFromRecents="true" android:hardwareAccelerated="true" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:configChanges="keyboardHidden|orientation|screenSize" />~\n~<activity android:name="com.applovin.adview.AppLovinInterstitialActivity" android:theme="@android:style/Theme.Translucent" />~\n~<activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.Translucent" />~\n~<activity android:name="com.mopub.common.MoPubBrowser" android:configChanges="keyboardHidden|orientation|screenSize" />~\n~<activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation|screenSize" />~\n~<activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation|screenSize" />~\n~<activity android:name="org.nexage.sourcekit.mraid.MRAIDBrowser" android:configChanges="orientation|keyboard|keyboardHidden|screenSize" android:theme="@android:style/Theme.Translucent" />~\n~<activity android:name="com.amazon.device.ads.AdActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>~\n~<activity android:name="com.my.target.ads.MyTargetActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true"/>~\n~<activity android:name="org.nexage.sourcekit.vast.activity.VASTActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />~\n~<activity android:name="org.nexage.sourcekit.vast.activity.VPAIDActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.appodeal.ads.networks.vpaid.VPAIDActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />~\n~<activity android:name="com.appodeal.ads.networks.SpotXActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.facebook.ads.InterstitialAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" />~\n~<activity android:name="com.unity3d.ads.adunit.AdUnitActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />~\n~<activity android:name="com.unity3d.ads.adunit.AdUnitSoftwareActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="false" />~\n~<activity android:name="com.unity3d.ads2.adunit.AdUnitActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" />~\n~<activity android:name="com.unity3d.ads2.adunit.AdUnitSoftwareActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="false" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.jirbo.adcolony.AdColonyOverlay" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.jirbo.adcolony.AdColonyFullscreen" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.jirbo.adcolony.AdColonyBrowser" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.vungle.publisher.FullScreenAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.startapp.android.publish.list3d.List3DActivity" android:theme="@android:style/Theme" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.startapp.android.publish.OverlayActivity" android:theme="@android:style/Theme.Translucent" android:configChanges="orientation|keyboardHidden|screenSize" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.startapp.android.publish.FullScreenActivity" android:theme="@android:style/Theme" android:configChanges="orientation|keyboardHidden|screenSize" />~\n~<service android:name="com.yandex.metrica.MetricaService" android:enabled="true" android:exported="true" android:process=":Metrica">~\n~	<intent-filter>~\n~		<category android:name="android.intent.category.DEFAULT" />~\n~		<action android:name="com.yandex.metrica.IMetricaService" />~\n~		<data android:scheme="metrica" />~\n~	</intent-filter>~\n~	<meta-data android:name="metrica:api:level" android:value="52" />~\n~</service>~\n~<receiver android:name="com.yandex.metrica.MetricaEventHandler" android:enabled="true" android:exported="true">~\n~	<intent-filter>~\n~		<action android:name="com.android.vending.INSTALL_REFERRER" />~\n~	</intent-filter>~\n~</receiver>~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.yandex.mobile.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.flurry.android.FlurryFullscreenTakeoverActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />~\n~<activity android:name="com.appodeal.ads.VideoPlayerActivity" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.revmob.FullscreenActivity" android:theme="@android:style/Theme.Translucent" android:configChanges="keyboardHidden|orientation"/>~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.tapjoy.TJAdUnitActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:hardwareAccelerated="true" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.tapjoy.mraid.view.ActionHandler" android:configChanges="orientation|keyboardHidden|screenSize" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.tapjoy.mraid.view.Browser" android:configChanges="orientation|keyboardHidden|screenSize" />~\n~<!--suppress AndroidDomInspection -->~\n~<activity android:name="com.tapjoy.TJContentActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:hardwareAccelerated="true" />~\n~<activity android:name="com.cmcm.picks.PicksLoadingActivity" android:launchMode="singleTask" android:taskAffinity="com.cmcm.adsdk.nativead" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />~\n~<activity android:name="com.cmcm.adsdk.interstitial.PicksInterstitialActivity" android:launchMode="singleTask" android:theme="@style/cm_interstital" />~\n~<activity android:name="com.cmcm.picks.webview.PicksBrowser" android:launchMode="singleTask" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />~\n~<service android:name="com.cmcm.picks.init.DownloadService" android:exported="false" android:process=":PickService" />~\n~<activity android:name="com.cmcm.picks.vastvideo.FullScreenVideoActivity" android:excludeFromRecents="true" android:launchMode="singleInstance" android:screenOrientation="landscape" />~\n~)
+IconFile=
+NumberOfFiles=328
+File1=A.txt
+File2=A_eng.txt
+File3=A0.jpg
+File4=A1.jpg
+File5=A10.jpg
+File6=A11.jpg
+File7=A12.jpg
+File8=A13.jpg
+File9=A14.jpg
+File10=A15.jpg
+File11=A16.jpg
+File12=A17.jpg
+File13=A18.jpg
+File14=A19.jpg
+File15=A2.jpg
+File16=A20.jpg
+File17=A21.jpg
+File18=A21.png
+File19=A3.jpg
+File20=A4.jpg
+File21=A5.jpg
+File22=A6.jpg
+File23=A7.jpg
+File24=A8.jpg
+File25=A9.jpg
+File26=B.txt
+File27=B_eng.txt
+File28=B0.jpg
+File29=B1.jpg
+File30=B10.jpg
+File31=B11.jpg
+File32=B12.jpg
+File33=B13.jpg
+File34=B14.jpg
+File35=B15.jpg
+File36=B16.jpg
+File37=B17.jpg
+File38=B18.jpg
+File39=B19.jpg
+File40=B2.jpg
+File41=B20.jpg
+File42=B21.jpg
+File43=B22.jpg
+File44=B23.jpg
+File45=B23.png
+File46=B24.jpg
+File47=B25.jpg
+File48=B3.jpg
+File49=B4.jpg
+File50=B5.jpg
+File51=B6.jpg
+File52=B7.jpg
+File53=B8.jpg
+File54=B9.jpg
+File55=Build.bal
+File56=C.txt
+File57=C_eng.txt
+File58=C0.jpg
+File59=C1.jpg
+File60=C10.jpg
+File61=C11.jpg
+File62=C12.jpg
+File63=C13.jpg
+File64=C14.jpg
+File65=C15.jpg
+File66=C16.jpg
+File67=C17.jpg
+File68=C18.jpg
+File69=C19.jpg
+File70=C2.jpg
+File71=C20.jpg
+File72=C21.jpg
+File73=C21.png
+File74=C3.jpg
+File75=C4.jpg
+File76=C5.jpg
+File77=C6.jpg
+File78=C7.jpg
+File79=C8.jpg
+File80=C9.jpg
+File81=D.txt
+File82=D_eng.txt
+File83=D0.jpg
+File84=D1.jpg
+File85=D10.jpg
+File86=D11.jpg
+File87=D12.jpg
+File88=D13.jpg
+File89=D14.jpg
+File90=D15.jpg
+File91=D16.jpg
+File92=D17.jpg
+File93=D18.jpg
+File94=D18.png
+File95=D2.jpg
+File96=D3.jpg
+File97=D4.jpg
+File98=D5.jpg
+File99=D6.jpg
+File100=D7.jpg
+File101=D8.jpg
+File102=D9.jpg
+File103=E.txt
+File104=E_eng.txt
+File105=E0.jpg
+File106=E1.jpg
+File107=E10.jpg
+File108=E11.jpg
+File109=E12.jpg
+File110=E13.jpg
+File111=E14.jpg
+File112=E15.jpg
+File113=E16.jpg
+File114=E17.jpg
+File115=E18.jpg
+File116=E19.jpg
+File117=E2.jpg
+File118=E20.jpg
+File119=E21.jpg
+File120=E21.png
+File121=E3.jpg
+File122=E4.jpg
+File123=E5.jpg
+File124=E6.jpg
+File125=E7.jpg
+File126=E8.jpg
+File127=E9.jpg
+File128=F.txt
+File129=F_eng.txt
+File130=F0.jpg
+File131=F1.jpg
+File132=F10.jpg
+File133=F11.jpg
+File134=F11.png
+File135=F2.jpg
+File136=F3.jpg
+File137=F4.jpg
+File138=F5.jpg
+File139=F6.jpg
+File140=F7.jpg
+File141=F8.jpg
+File142=F9.jpg
+File143=G.txt
+File144=G_eng.txt
+File145=G0.jpg
+File146=G1.jpg
+File147=G10.jpg
+File148=G11.jpg
+File149=G12.jpg
+File150=G13.jpg
+File151=G14.jpg
+File152=G15.jpg
+File153=G16.jpg
+File154=G17.jpg
+File155=G18.jpg
+File156=G19.jpg
+File157=G2.jpg
+File158=G20.jpg
+File159=G21.jpg
+File160=G22.jpg
+File161=G23.jpg
+File162=G24.jpg
+File163=G25.jpg
+File164=G26.jpg
+File165=G27.jpg
+File166=G28.jpg
+File167=G29.jpg
+File168=G3.jpg
+File169=G30.jpg
+File170=G31.jpg
+File171=G32.jpg
+File172=G32.png
+File173=G4.jpg
+File174=G5.jpg
+File175=G6.jpg
+File176=G7.jpg
+File177=G8.jpg
+File178=G9.jpg
+File179=H.txt
+File180=H_eng.txt
+File181=H0.jpg
+File182=H1.jpg
+File183=H10.jpg
+File184=H10.png
+File185=H2.jpg
+File186=H3.jpg
+File187=H4.jpg
+File188=H5.jpg
+File189=H6.jpg
+File190=H7.jpg
+File191=H8.jpg
+File192=H9.jpg
+File193=I.txt
+File194=I_eng.txt
+File195=I0.jpg
+File196=I1.jpg
+File197=I2.jpg
+File198=I3.jpg
+File199=I4.jpg
+File200=I4.png
+File201=J.txt
+File202=J_eng.txt
+File203=J0.jpg
+File204=J1.jpg
+File205=J2.jpg
+File206=J3.jpg
+File207=J3.png
+File208=K.txt
+File209=K_eng.txt
+File210=K0.jpg
+File211=K1.jpg
+File212=K2.jpg
+File213=K3.jpg
+File214=K4.jpg
+File215=K4.png
+File216=L.txt
+File217=L_eng.txt
+File218=L0.jpg
+File219=L1.jpg
+File220=L2.jpg
+File221=L3.jpg
+File222=L4.jpg
+File223=L5.jpg
+File224=L6.jpg
+File225=L7.jpg
+File226=L7.png
+File227=M.txt
+File228=M_eng.txt
+File229=M0.jpg
+File230=M1.jpg
+File231=M2.jpg
+File232=M2.png
+File233=menu.png
+File234=N.txt
+File235=N_eng.txt
+File236=N0.jpg
+File237=N1.jpg
+File238=N2.jpg
+File239=N3.jpg
+File240=N3.png
+File241=O.txt
+File242=O_eng.txt
+File243=O0.jpg
+File244=O1.jpg
+File245=O10.jpg
+File246=O11.jpg
+File247=O12.jpg
+File248=O13.jpg
+File249=O14.jpg
+File250=O15.jpg
+File251=O16.jpg
+File252=O17.jpg
+File253=O18.jpg
+File254=O19.jpg
+File255=O2.jpg
+File256=O20.jpg
+File257=O21.jpg
+File258=O22.jpg
+File259=O23.jpg
+File260=O23.png
+File261=O3.jpg
+File262=O4.jpg
+File263=O5.jpg
+File264=O6.jpg
+File265=O7.jpg
+File266=O8.jpg
+File267=O9.jpg
+File268=pic1.png
+File269=Q.txt
+File270=Q_eng.txt
+File271=Q0.jpg
+File272=Q1.jpg
+File273=Q10.jpg
+File274=Q11.jpg
+File275=Q12.jpg
+File276=Q13.jpg
+File277=Q14.jpg
+File278=Q14.png
+File279=Q2.jpg
+File280=Q3.jpg
+File281=Q4.jpg
+File282=Q5.jpg
+File283=Q6.jpg
+File284=Q7.jpg
+File285=Q8.jpg
+File286=Q9.jpg
+File287=Redstone.png
+File288=Thumbs.db
+File289=Z.txt
+File290=Z_eng.txt
+File291=Z0.jpg
+File292=Z1.jpg
+File293=Z10.jpg
+File294=Z11.jpg
+File295=Z12.jpg
+File296=Z13.jpg
+File297=Z14.jpg
+File298=Z15.jpg
+File299=Z16.jpg
+File300=Z17.jpg
+File301=Z18.jpg
+File302=Z19.jpg
+File303=Z2.jpg
+File304=Z20.jpg
+File305=Z21.jpg
+File306=Z22.jpg
+File307=Z23.jpg
+File308=Z24.jpg
+File309=Z25.jpg
+File310=Z26.jpg
+File311=Z27.jpg
+File312=Z28.jpg
+File313=Z29.jpg
+File314=Z3.jpg
+File315=Z30.jpg
+File316=Z31.jpg
+File317=Z32.jpg
+File318=Z33.jpg
+File319=Z34.jpg
+File320=Z35.jpg
+File321=Z36.jpg
+File322=z36.png
+File323=Z4.jpg
+File324=Z5.jpg
+File325=Z6.jpg
+File326=Z7.jpg
+File327=Z8.jpg
+File328=Z9.jpg
+NumberOfLibraries=7
+Library1=core
+Library2=appodealb4a
+Library3=phone
+Library4=stringutils
+Library5=animationplus
+Library6=reflection
+Library7=tweenengine
+@EndOfDesignText@
+#Region Module Attributes
+	#FullScreen: true
+	#IncludeTitle: false
+	#ApplicationLabel: Пошаговые схемы для Minecraft
+	#VersionCode: 4
+	#VersionName: 1.2.1
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+	'support-lib-v4
+	#AdditionalJar: android-support-v4-23.1.2-trimmed.jar
+	
+	#AdditionalJar: google_play_services\libs\play-services-ads-9.4.0.jar
+	#AdditionalRes: C:\Program Files\Anywhere Software\Basic4android\Libraries\google_play_services\res_google_play_ads, com.google.android.gms.ads.impl
+	#AdditionalJar: google_play_services\libs\play-services-ads-lite-9.4.0.jar
+	#AdditionalRes: C:\Program Files\Anywhere Software\Basic4android\Libraries\google_play_services\res_google_play_ads_lite, com.google.android.gms.ads
+	#AdditionalJar: google_play_services\libs\play-services-base-9.4.0.jar
+	#AdditionalRes: C:\Program Files\Anywhere Software\Basic4android\Libraries\google_play_services\res_google_play_base, com.google.android.gms.base
+	#AdditionalJar: google_play_services\libs\play-services-basement-9.4.0.jar
+	#AdditionalRes: C:\Program Files\Anywhere Software\Basic4android\Libraries\google_play_services\res_google_play, com.google.android.gms
+	#AdditionalJar: google_play_services\libs\play-services-clearcut-9.4.0.jar
+	#AdditionalJar: google_play_services\libs\play-services-gass-9.4.0.jar
+	#AdditionalJar: google_play_services\libs\play-services-location-9.4.0.jar
+	#AdditionalJar: google_play_services\libs\play-services-tasks-9.4.0.jar
+	
+	'additional libraries required to support appodeal 
+	#AdditionalJar: unity-ads-2.0.4.jar
+	#AdditionalJar: flurry-analytics-6.5.0.jar	
+	#AdditionalJar: applovin-6.3.0.jar
+	#AdditionalJar: appodeal-1.15.9.jar
+	#AdditionalJar: chartboost-6.6.1.jar
+	#AdditionalJar: cheetah_mobile\cheetah-mobile-3.4.7.jar
+	#AdditionalRes: C:\Program Files\Anywhere Software\Basic4android\Libraries\cheetah_mobile\res_cheetah_mobile, com.cmcm.adsdk
+	#AdditionalJar: my-target-4.5.10.jar
+	#AdditionalJar: yandex-metrica-2.62.jar
+#End Region
+
+'Activity module
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+
+End Sub
+
+Sub Globals
+	Dim Appodeal As AppodealB4A
+	Dim appKey As String = "93aef72b421788b5f55095fd26319c22b6ddca464840a628"
+	Dim ActBarText As String
+	Dim ActBarTextColor As Int = Colors.White
+	Dim ActBarcolor As Int = Colors.RGB(0,0,80)
+	Dim ActBarLineColor As Int = Colors.Transparent
+	Dim ActBarCornerRadius As Int = 0dip	
+	Dim MenuWidth As Int = 250dip
+	Dim MenuFullLength As Boolean = True	
+	Dim MenuColor As Int = Colors.RGB(0,0,80)
+	Dim MenuTextColor As Int = Colors.White
+	Dim MenuTextSize As Int = 20
+	Dim ShowSlideButton As Boolean = True
+	Dim SlideDuration As Int = 200
+	Dim FadeAlphaShade As Int = 125
+	
+	Dim scvImages As ScrollView
+	Dim imvImage As ImageView
+    Dim imvLabel As Label
+	Dim bmpImage As Bitmap
+	Dim imgWidth As Int			: imgWidth=100%x		' image width
+	Dim imgHeight As Int		: imgHeight=75%x
+	Dim lblHeight As Int		: lblHeight=25%x
+	Dim imgSpace As Int			: imgSpace=5dip			' space between images
+	Dim fullscreen As ImageView	
+	Dim ImageView1 As ImageView
+	Dim Label1 As Label
+	Dim maxs As Int=100%x/36
+	Dim bykva As String
+	Dim adtime As Boolean
+	
+	Dim njMenu As AnimatedSlidingMenu
+	Dim Icon As Bitmap
+	Dim Scin As ColorDrawable
+	Dim menu_btn As Button
+	Dim Instruction_is_open As Boolean = False
+End Sub
+
+Sub AnimatedMenu_Click(SelectedItem As Object)
+	If SelectedItem<>18 Then
+	ImageView1.Visible=False
+	Label1.Visible=False
+If adtime And Appodeal.isLoaded(Appodeal.INTERSTITIAL) Then	
+    Appodeal.showWithPlacement(Appodeal.INTERSTITIAL, "level_end")
+End If
+adtime=Not(adtime)	
+End If
+    If GetDefaultLanguage="en" Then
+	Select SelectedItem
+	Case 1
+		InitScrollView("A", 21)
+	Case 2
+		InitScrollView("B", 25)
+	Case 3
+		InitScrollView("C", 21)
+	Case 4
+		InitScrollView("Z", 36)
+	Case 5
+		InitScrollView("D",18)
+	Case 6
+		InitScrollView("E", 21)
+	Case 7
+		InitScrollView("F",11)
+	Case 8
+		InitScrollView("G",32)
+	Case 9
+		InitScrollView("H", 10)
+	Case 10
+		InitScrollView("Q", 14)
+	Case 11
+		InitScrollView("I",4)
+	Case 12
+		InitScrollView("J", 3)
+	Case 13
+		InitScrollView("K", 4)
+	Case 14
+		InitScrollView("L", 7)
+	Case 15
+		InitScrollView("M",2)
+	Case 16
+		InitScrollView("N", 3)
+	Case 17
+		InitScrollView("O",23)
+	Case 18
+		 Dim i As Intent
+         i.Initialize(i.ACTION_VIEW, "https://play.google.com/store/apps/details?id=com.serogen.sbsrifmcpe_new")
+         StartActivity(i)	
+	End Select
+Else 
+		Select SelectedItem
+	Case 1
+		InitScrollView("A", 21)
+	Case 2
+		InitScrollView("B", 25)
+	Case 3
+		InitScrollView("C", 21)
+	Case 4
+		InitScrollView("Z", 36)
+	Case 5
+		InitScrollView("D",18)
+	Case 6
+		InitScrollView("E", 21)
+	Case 7
+		InitScrollView("F",11)
+	Case 8
+		InitScrollView("G",32)
+	Case 9
+		InitScrollView("H", 10)
+	Case 10
+		InitScrollView("Q", 14)
+	Case 11
+		InitScrollView("I",4)
+	Case 12
+		InitScrollView("J", 3)
+	Case 13
+		InitScrollView("K", 4)
+	Case 14
+		InitScrollView("L", 7)
+	Case 15
+		InitScrollView("M",2)
+	Case 16
+		InitScrollView("N", 3)
+	Case 17
+		InitScrollView("O",23)
+	Case 18
+		 Dim i As Intent
+         i.Initialize(i.ACTION_VIEW, "https://play.google.com/store/apps/details?id=com.serogen.sbsrifmcpe_new")
+         StartActivity(i)
+	End Select
+End If
+
+End Sub
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("Build")
+
+	Scin.Initialize(Colors.RGB(0,0,205),0)
+	If GetDefaultLanguage="en" Then	
+	menu_btn.Text = "Open menu"
+    ActBarText="Step by Step instructions"
+	Label1.Text="This application contains step by step instructions of beautiful houses, various buildings, furniture, home decoration and not only. Each step has a detailed description, therefore, is not even able to build a nice person can easily build buildings, which will be proud of!"
+    Else
+		menu_btn.Text = "Открыть меню"
+	ActBarText= "Пошаговые инструкции"
+	Label1.Text="В этом приложении собраны пошаговые инструкции красивых домов, различных построек, мебели, предметов интерьера и не только. Каждый шаг имеет подробное описание, поэтому даже не умеющий красиво строить человек сможет с лёгкостью возвести постройки, которыми будет гордиться!"
+	End If
+	
+	BuildMenu
+	ImageView1.Visible=True
+	Label1.Visible=True
+	
+	SetLabelTextSize(Label1,Label1.Text , maxs,1)
+	SetLabelTextSize(menu_btn,menu_btn.Text , maxs,1)
+	
+	Appodeal.setEventHandler("Handler")
+	Appodeal.setBannerCallbacks()
+	Appodeal.setInterstitialCallbacks()
+'	Appodeal.setTesting(True)
+	Appodeal.initialize(appKey, Bit.Or(Appodeal.INTERSTITIAL, Appodeal.BANNER))
+	Appodeal.show(Appodeal.BANNER_BOTTOM)
+	
+	
+End Sub
+
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub InitScrollView(str As String, nom As Int)
+	Dim i As Int
+	Dim TextReader1 As TextReader
+	bykva=str
+	scvImages.Panel.RemoveAllViews
+	Instruction_is_open = True
+	If GetDefaultLanguage="en" Then
+    TextReader1.Initialize(File.OpenInput(File.DirAssets, str&"_eng.txt"))
+	Else
+	TextReader1.Initialize(File.OpenInput(File.DirAssets, str&".txt"))	
+	End If
+	fullscreen.Initialize(Null)
+	fullscreen.Gravity=Gravity.FILL
+	scvImages.Visible=True
+	For i=0 To nom
+		Dim imvImage As ImageView																			
+		Dim bmpImage As Bitmap
+		bmpImage.Initialize(File.DirAssets, str&i&".jpg")
+'		bmpImage.Initialize(File.DirInternal,"Image"&i&".jpg")
+'		bmpImage.Initialize(File.DirDefaultExternal,"Image"&i&".jpg")
+		imvImage.Initialize("imvImage")
+		imvLabel.Initialize("imvLabel")
+		imvLabel.Text=TextReader1.ReadLine
+		imvLabel.TextColor=Colors.White
+		imvLabel.Color = Colors.RGB(5,0,80)
+		imvImage.Gravity=Gravity.FILL
+		imvImage.Tag=i
+		imvImage.Bitmap=bmpImage
+		scvImages.Panel.AddView(imvImage,0,i*(imgHeight+imgSpace+lblHeight)+40dip,imgWidth,imgHeight)
+		scvImages.Panel.AddView(imvLabel,0,imvImage.Top+imgHeight,imgWidth,lblHeight)
+		SetLabelTextSize(imvLabel,imvLabel.Text, maxs,1)
+	Next
+	scvImages.ScrollPosition=0
+	scvImages.Panel.Height=(nom+1)*(imgHeight+imgSpace+lblHeight)+40dip
+	scvImages.Left=0
+	scvImages.Top=15%y
+	scvImages.Width=100%x
+	scvImages.Height=85%y-90dip
+	TextReader1.Close
+End Sub
+
+Sub imvImage_Click
+	Dim Send As View
+	Send=Sender
+     Dim i As Intent 
+If adtime And Appodeal.isLoaded(Appodeal.INTERSTITIAL) Then
+	Appodeal.showWithPlacement(Appodeal.INTERSTITIAL, "level_end")
+End If	
+adtime=Not(adtime)
+Dim FilesToDelete As List
+FilesToDelete.Initialize
+FilesToDelete.AddAll(File.ListFiles(File.DirDefaultExternal))
+For j = 0 To FilesToDelete.Size -1
+    File.Delete(File.DirDefaultExternal, FilesToDelete.Get(j))
+Next
+   If File.Exists(File.DirDefaultExternal, bykva&Send.Tag&".jpg") = False Then
+      File.Copy(File.DirAssets, bykva&Send.Tag&".jpg", File.DirDefaultExternal, bykva&Send.Tag&".jpg")
+   End If
+i.Initialize(i.ACTION_VIEW,"file://"&File.DirDefaultExternal&"/"&bykva&Send.Tag&".jpg")
+i.SetType("image/*")
+StartActivity(i)
+Log("error:"&I)
+End Sub
+
+
+
+Sub BuildMenu
+	'BUILD YOUR SLIDING MENU HERE
+	njMenu.Initialize(Activity, Me, "", "AnimatedMenu", "T", 0, 100%x, Colors.Transparent, Scin)
+	If GetDefaultLanguage="en" Then
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "A21.png"),"House 1" , Colors.White, Colors.Transparent, 1)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "B23.png"),"Modern house" , Colors.White, Colors.Transparent, 2)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "C21.png"),"Treehouse" , Colors.White, Colors.Transparent, 3)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "Z36.png"),"Suburban house" , Colors.White, Colors.Transparent, 4)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "D18.png"),"Medieval house 1" , Colors.White, Colors.Transparent, 5)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "E21.png"),"Fountain 1" , Colors.White, Colors.Transparent, 6)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "F11.png"),"Well" , Colors.White, Colors.Transparent, 7)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "G32.png"),"Medieval house 2" , Colors.White, Colors.Transparent, 8)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "H10.png"),"Fountain 2" , Colors.White, Colors.Transparent, 9)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "Q14.png"),"Small house" , Colors.White, Colors.Transparent, 10)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "I4.png"),"Armchair" , Colors.White, Colors.Transparent, 11)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "J3.png"),"Piano" , Colors.White, Colors.Transparent, 12)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "K4.png"),"Beds" , Colors.White, Colors.Transparent, 13)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "L7.png"),"Computer table" , Colors.White, Colors.Transparent, 14)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "M2.png"),"Cart" , Colors.White, Colors.Transparent, 15)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "N3.png"),"Fireplace" , Colors.White, Colors.Transparent, 16)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "O23.png"),"Lighthouse" , Colors.White, Colors.Transparent, 17)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "Redstone.png"),"Redstone schemes" , Colors.White, Colors.Transparent, 18)	
+	Else
+		njMenu.AddItem(LoadBitmap(File.DirAssets, "A21.png"),"Дом 1" , Colors.White, Colors.Transparent, 1)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "B23.png"),"Модерн хаус" , Colors.White, Colors.Transparent, 2)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "C21.png"),"Дом на дереве" , Colors.White, Colors.Transparent, 3)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "Z36.png"),"Дачный дом" , Colors.White, Colors.Transparent, 4)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "D18.png"),"Средневековый дом 1" , Colors.White, Colors.Transparent, 5)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "E21.png"),"Фонтан 1" , Colors.White, Colors.Transparent, 6)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "F11.png"),"Колодец" , Colors.White, Colors.Transparent, 7)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "G32.png"),"Средневековый дом 2" , Colors.White, Colors.Transparent, 8)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "H10.png"),"Фонтан 2" , Colors.White, Colors.Transparent, 9)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "Q14.png"),"Небольшой дом" , Colors.White, Colors.Transparent, 10)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "I4.png"),"Кресло" , Colors.White, Colors.Transparent, 11)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "J3.png"),"Рояль" , Colors.White, Colors.Transparent, 12)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "K4.png"),"Кровати" , Colors.White, Colors.Transparent, 13)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "L7.png"),"Компьютерный стол" , Colors.White, Colors.Transparent, 14)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "M2.png"),"Телега" , Colors.White, Colors.Transparent, 15)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "N3.png"),"Камин" , Colors.White, Colors.Transparent, 16)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "O23.png"),"Маяк" , Colors.White, Colors.Transparent, 17)
+	njMenu.AddItem(LoadBitmap(File.DirAssets, "Redstone.png"),"Редстоун схемы" , Colors.White, Colors.Transparent, 18)
+	End If
+End Sub
+#Region  CHECK FOR BACK KEY PRESS 
+
+	'SOFTKEY PRESS
+Sub Activity_KeyPress(KeyCode As Int) As Boolean
+	If KeyCode = KeyCodes.KEYCODE_BACK And njMenu.IsOpen Then
+		njMenu.CloseMenu
+		Return True	
+	Else
+		If KeyCode = KeyCodes.KEYCODE_BACK And Instruction_is_open Then
+		scvImages.Panel.RemoveAllViews
+		scvImages.Visible =False
+		Instruction_is_open =False
+		ImageView1.Visible=True
+		Label1.Visible=True
+		Return True	
+		Else
+		Dim KillApp As Int
+		'Log(KeyCode)
+		If GetDefaultLanguage="en" Then
+	    KillApp = Msgbox2("Are you sure you want to quit?","Exit", "Yes", "", "No", Null)
+	    Else
+		KillApp = Msgbox2("Вы уверены, что хотите выйти?","Выход", "Да", "", "Нет", Null)	
+		End If
+		If KillApp = DialogResponse.POSITIVE Then
+	        ExitApplication
+			Return False
+	    Else
+			'SlidingMenu.BarsOff
+	        Return True
+	    End If
+	End If
+	End If
+	'Return KeyCode	
+End Sub
+#End Region
+
+Sub SetLabelTextSize(lbl2 As Label, txt2 As String, MaxFontSize As Float, MinFontSize As Float)
+    Dim FontSize = MaxFontSize As Float
+    Dim Height As Int
+    Dim stu As StringUtils
+    
+    lbl2.TextSize = FontSize
+    Height = stu.MeasureMultilineTextHeight(lbl2, txt2)
+    Do While Height > lbl2.Height And FontSize > MinFontSize 
+        FontSize = FontSize - 1
+        lbl2.TextSize = FontSize
+        Height = stu.MeasureMultilineTextHeight(lbl2, txt2)
+    Loop
+End Sub
+
+Sub GetDefaultLanguage As String
+	Dim r As Reflector
+	r.Target=r.RunStaticMethod("java.util.Locale","getDefault",Null,Null)
+	Return r.RunMethod("getLanguage")
+End Sub
+
+
+
+
+Sub menu_btn_Click
+	njMenu.OpenMenu("Cascade")	
+	menu_btn.SendToBack
+End Sub
