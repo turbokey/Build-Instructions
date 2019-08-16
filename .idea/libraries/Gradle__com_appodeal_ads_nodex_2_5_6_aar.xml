@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appodeal.ads:nodex:2.5.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/chartboost-7.3.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/adcolony-3.3.8.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/facebook-5.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/applovin-9.3.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/yandex-metrica-3.5.3.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/protobuf-appodeal.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/tapjoy-12.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/yandex-mobileads-2.91.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/startapp-4.0.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/vungle-6.3.24.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/amazon_ads-5.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/inmobi-7.2.7.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/ironsource-6.8.2.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/my_target-5.3.8.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nodex-2.5.6.aar/8a6256cee0f14b417616ccd4f096d509/jars/libs/unity_ads-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

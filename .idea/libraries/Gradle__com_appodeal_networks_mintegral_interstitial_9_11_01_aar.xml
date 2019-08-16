@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appodeal.networks:mintegral-interstitial:9.11.01@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mintegral-interstitial-9.11.01.aar/1e86017c39ff64f6baeaa4caa25ed871/jars/libs/classes-2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mintegral-interstitial-9.11.01.aar/1e86017c39ff64f6baeaa4caa25ed871/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mintegral-interstitial-9.11.01.aar/1e86017c39ff64f6baeaa4caa25ed871/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

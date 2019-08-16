@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Инструкции по строительству домов</string>
+    <string name="title_activity_main">Главная</string>
+    <string name="action_settings">Политика конфиденциальности</string>
+    <string name="A_instruction_label">Простой дом для выживания</string>
+    <string name="B_instruction_label">Дом в стиле модерн</string>
+    <string name="C_instruction_label">Домик на дереве</string>
+    <string name="D_instruction_label">Средневековый дом 1</string>
+    <string name="E_instruction_label">Фонтан</string>
+    <string name="F_instruction_label">Колодец</string>
+    <string name="G_instruction_label">Средневековый дом 2</string>
+    <string name="H_instruction_label">Маленький фонтан</string>
+    <string name="I_instruction_label">Кресло</string>
+    <string name="J_instruction_label">Рояль</string>
+    <string name="K_instruction_label">Двухъярусная кровать</string>
+    <string name="L_instruction_label">Компьютерный стол</string>
+    <string name="M_instruction_label">Телега</string>
+    <string name="N_instruction_label">Камин</string>
+    <string name="O_instruction_label">Маяк</string>
+    <string name="Q_instruction_label">Простой дом</string>
+    <string name="Z_instruction_label">Коттедж</string>
+    <string name="menu_tutorials">Все инструкции</string>
+    <string name="menu_home">Главная</string>
+    <string name="menu_about">О программе</string>
+    <string name="category_last_tutorial">Последняя инструкция</string>
+    <string name="menu_categories">Категории</string>
+    <string name="menu_site">Наш сайт</string>
+
+    <string name="cancel_answer">Отмена</string>
+    <string name="internet_connection_error">Отсутствует подключение к Интернету</string>
+    <string name="internet_connection_error_title">Запуск невозможен</string>
+    <string name="close_app">Закрыть</string>
+    <string name="about">О программе</string>
+    <string name="version">Версия: %s</string>
+    <string name="home_text">В этом приложении собраны пошаговые инструкции по строительству в игре Minecraft красивых домов, различных построек, мебели, предметов интерьера и не только. Каждый шаг имеет подробное описание, поэтому даже не умеющий красиво строить человек сможет с лёгкостью возвести постройки, которыми будет гордиться!</string>
+    <string name="open_btn">Открыть</string>
+    <string name="group_all">Все</string>
+    <string name="group_houses">Дома</string>
+    <string name="group_medieval_houses">Средневековые дома</string>
+    <string name="group_fountains">Фонтаны</string>
+    <string name="group_outdoor_decorations">Наружные украшения</string>
+    <string name="group_house_decorations">Украшения дома</string>
+    <string name="group_other_buildings">Другие постройки</string>
+    <string name="open_inst_btn">Открыть</string>
+    <string name="view_all_btn">Посмотреть все</string>
+    <string name="search_hint">Поиск</string>
+</resources>

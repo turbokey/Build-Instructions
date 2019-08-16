@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="A_instruction">
+        <item></item>
+        <item>1) Make the foundation of the house 10x7. Do not put blocks in the corners</item>
+        <item>2) Complete the foundation. In the corners we make pine wood poles</item>
+        <item>3) Make the floor of the 2nd floor</item>
+        <item>4) Build a porch</item>
+        <item>5) In front build a wall, leaving room for a door and windows</item>
+        <item>6) At the back add more posts</item>
+        <item>7) Build a wall</item>
+        <item>8) Build a wall on the left</item>
+        <item>9) Build a wall on the right</item>
+        <item>10) Make windows</item>
+        <item>11) Make the stairs</item>
+        <item>12) We begin to build a roof</item>
+        <item>13) Add stairs</item>
+        <item>14) Building</item>
+        <item>15) Put slabs on top. Insert glass panels into the windows</item>
+        <item>16) Begin to build another part of the roof</item>
+        <item>17) Finish</item>
+        <item>18) Make a roof over the porch, put supports</item>
+        <item>19) From the slabs make a balcony</item>
+        <item>20) Finish it</item>
+        <item>21) The house is ready</item>
+    </string-array>
+    <string-array name="B_instruction">
+        <item></item>
+        <item>1) Make the floor</item>
+        <item>2) Build 2 pillars and a doorway 3 blocks high from pine wooden planks</item>
+        <item>3) Build a wall. Leave space for the window</item>
+        <item>4) 3 more pillars and a doorway</item>
+        <item>5) 4 more pillars</item>
+        <item>6) Build a pillar</item>
+        <item>7) Put blocks of snow on top so that it is above the snow of the lower layer</item>
+        <item>8) At the corners make pillars of snow</item>
+        <item>9) Using layers of snow reach such a hole for the window</item>
+        <item>10) Make the floor of the second floor</item>
+        <item>11) Build pillars and a doorway</item>
+        <item>12) More pillars and doorway</item>
+        <item>13) On the side build a pillar</item>
+        <item>14) Make a frame of snow blocks</item>
+        <item>15)</item>
+        <item>16) Make the floor of the third floor</item>
+        <item>17) Make pillars and a doorway</item>
+        <item>18)</item>
+        <item>19) From the snow blocks make the roof</item>
+        <item>20) Make a glass railings</item>
+        <item>21) Build a staircase</item>
+        <item>22) Make a path and a pool with a depth of 3 blocks. Lapis lazuli blocks bottom</item>
+        <item>23) Finish the windows</item>
+        <item>24) Inside</item>
+        <item>25) Build a staircase</item>
+    </string-array>
+    <string-array name="C_instruction">
+        <item></item>
+        <item>1) Build a pillar of wood with a height of 8 blocks</item>
+        <item>2) Begin to make a house</item>
+        <item>3) From the upside down stairs make a balcony. Make a railing of 4 fences</item>
+        <item>4) Add more boards from above. Upside down stairs in the center</item>
+        <item>5) Begin to make a roof</item>
+        <item>6) Finish it by adding a few upside down stairs</item>
+        <item>7) Make branches from blocks of wood, put the ladder</item>
+        <item>8) Inside also make branches</item>
+        <item>9) Make foliage</item>
+        <item>10)</item>
+        <item>11)</item>
+        <item>12)</item>
+        <item>13)</item>
+        <item>14)</item>
+        <item>15)</item>
+        <item>16)</item>
+        <item>17)</item>
+        <item>18) Add the vines</item>
+        <item>19) …and then again</item>
+        <item>20) Make a swing</item>
+        <item>21) The house is ready</item>
+    </string-array>
+    <string-array name="D_instruction">
+        <item></item>
+        <item>1) Build poles of oak wood 4 blocks high</item>
+        <item>2) Connect them on top</item>
+        <item>3) Make doorways and windows</item>
+        <item>4) Build walls from other sides</item>
+        <item>5) From the steps and two stone bricks begin to make a roof</item>
+        <item>6) Build on the one side</item>
+        <item>7) …and on the other. Over the opposite wall we build the same</item>
+        <item>8) Connect them by moving the top 1 block further from the wall</item>
+        <item>9) It turns out like this</item>
+        <item>10) Finish the roof from pine planks and pine stairs. Lay half blocks on top of the roof</item>
+        <item>11)</item>
+        <item>12)</item>
+        <item>13)</item>
+        <item>14) From the gates make the balcony railing</item>
+        <item>15) Put the door, insert the glass panels into the windows. Place the steps of the cobblestone. Make shutters out of trapdoors</item>
+        <item>16) Decorate a little room inside</item>
+        <item>17) Make a staircase and a ceiling of slabs</item>
+        <item>18) The house is ready</item>
+    </string-array>
+    <string-array name="E_instruction">
+        <item></item>
+        <item>1) Make a circle of stairs, as shown in the picture</item>
+        <item>2) Put slabs above the steps. On each side put another 5 slabs</item>
+        <item>3)</item>
+        <item>4)</item>
+        <item>5)</item>
+        <item>6)</item>
+        <item>7) It should look like above</item>
+        <item>8) Add slabs at the edges</item>
+        <item>9) Add 24 stairs</item>
+        <item>10)</item>
+        <item>11)</item>
+        <item>12)</item>
+        <item>13)</item>
+        <item>14) Add 20 stairs</item>
+        <item>15)</item>
+        <item>16)</item>
+        <item>17) Pour a bucket of water onto the top</item>
+        <item>18) Pour water below</item>
+        <item>19) Make another stream of water</item>
+        <item>20) Decorate with water lilies</item>
+        <item>21) The fountain is ready</item>
+    </string-array>
+    <string-array name="F_instruction">
+        <item></item>
+        <item>1) Dig a 3x3 hole and pour water into it</item>
+        <item>2) Begin to build a well</item>
+        <item>3) Add steps and cobblestone wall</item>
+        <item>4)</item>
+        <item>5) Begin to build a roof of stairs. Also use upside down stairs</item>
+        <item>6) Finish the roof</item>
+        <item>7)</item>
+        <item>8)</item>
+        <item>9) Make a handle</item>
+        <item>10) Put a boiler filled with water. On the edges put fences</item>
+        <item>11) The well is ready</item>
+    </string-array>
+    <string-array name="G_instruction">
+        <item></item>
+        <item>1) From the cobblestone build the floor and foundation of the future home</item>
+        <item>2) Build walls</item>
+        <item>3) Build pillars</item>
+        <item>4)</item>
+        <item>5) Do the same thing from behind</item>
+        <item>6)</item>
+        <item>7) On top put blocks of oak wood</item>
+        <item>8)</item>
+        <item>9) Door and glass</item>
+        <item>10) Make a canopy of slabs and upside down stairs</item>
+        <item>11) Around the perimeter</item>
+        <item>12) Make columns (4 blocks at the edges, 3 blocks at the edges) and connect them from above</item>
+        <item>13) Left</item>
+        <item>14) At the back do the same as paragraph 12. In the end, it should turn out</item>
+        <item>15) Make a canopy of slabs and upside down stairs. Over the opposite wall also make the same canopy, the same length</item>
+        <item>16) Build walls, leaving space for windows</item>
+        <item>17) Build a wall. From the stairs make a window</item>
+        <item>18)</item>
+        <item>19)</item>
+        <item>20) Begin to make a roof of stairs and upside down stairs</item>
+        <item>21) Build a staircase</item>
+        <item>22)</item>
+        <item>23) Make the floor</item>
+        <item>24) The floor of the attic. Do not forget about the stairs</item>
+        <item>25) Make the roof of the extension</item>
+        <item>26) Finish the roof</item>
+        <item>27) Decorate the house inside</item>
+        <item>28) On the ground floor make such a stove</item>
+        <item>29)</item>
+        <item>30) Make a chimney</item>
+        <item>31) Make window sills. Put flower pots on them</item>
+        <item>32) The house is ready</item>
+    </string-array>
+    <string-array name="H_instruction">
+        <item></item>
+        <item>1) Make a sandstone circle</item>
+        <item>2) On top put slabs of sandstone</item>
+        <item>3) Dig a hole in the center and fill it with sandstone</item>
+        <item>4) Remove all blocks of grass inside. Place a few stairs</item>
+        <item>5) Build a pillar with a height of 7 blocks</item>
+        <item>6) Build from upside down stairs and slabs</item>
+        <item>7) 4 more stairs</item>
+        <item>8) Remove blocks of the dirt. Instead, make a bottom of sandstone blocks</item>
+        <item>9) Fill with water</item>
+        <item>10) Pour water on top of the fountain, the fountain is ready</item>
+    </string-array>
+    <string-array name="I_instruction">
+        <item>1) Prepare</item>
+        <item>2) Put the minecart on the rails and push. Remove excess</item>
+        <item>3) Using a piston, push the stair into the minecart</item>
+        <item>4) Get such a chair</item>
+        <item>5) Make chair handles from the signs</item>
+    </string-array>
+    <string-array name="J_instruction">
+        <item>1)</item>
+        <item>2)</item>
+        <item>3)</item>
+        <item>4)</item>
+    </string-array>
+    <string-array name="K_instruction">
+        <item>1)</item>
+        <item>2)</item>
+        <item>3)</item>
+        <item>4)</item>
+        <item>5)</item>
+    </string-array>
+    <string-array name="L_instruction">
+        <item>1) Put the souls sand</item>
+        <item>2) Prepare everything for the creation of the chair</item>
+        <item>3) Remove the block under the minecart</item>
+        <item>4) Using a piston, push the stair into the minecart</item>
+        <item>5) Make a table</item>
+        <item>6) Put the pressure plate. Attach a sign to it</item>
+        <item>7) Hang a picture on the sign</item>
+        <item>8) Decorate the table. All is ready!</item>
+    </string-array>
+    <string-array name="M_instruction">
+        <item>1)</item>
+        <item>2)</item>
+        <item>3)</item>
+    </string-array>
+    <string-array name="N_instruction">
+        <item>1)</item>
+        <item>2)</item>
+        <item>3)</item>
+        <item>4)</item>
+    </string-array>
+    <string-array name="O_instruction">
+        <item></item>
+        <item>1) Make a circle</item>
+        <item>2) Build a few more layers</item>
+        <item>3) Build a cylinder of smaller diameter from white stained clay</item>
+        <item>4) So it should look on top</item>
+        <item>5) Build a cylinder of red clay with a height of 5 blocks</item>
+        <item>6) Continue to build</item>
+        <item>7) …alternating colors</item>
+        <item>8) At the corners place blocks of red clay</item>
+        <item>9) Continue to build up</item>
+        <item>10) Top view</item>
+        <item>11) Make the platform</item>
+        <item>12) Build a circle with white clay pillars</item>
+        <item>13) Make a circle on top</item>
+        <item>14) Above build a roof of red clay</item>
+        <item>15) …more</item>
+        <item>16) …more</item>
+        <item>17) … and more</item>
+        <item>18) Place blocks of glass</item>
+        <item>19) Make the railing from the fence</item>
+        <item>20) Inside make a lamp from a glowstone</item>
+        <item>21) Put the door</item>
+        <item>22) Also make a door below</item>
+        <item>23) The lighthouse is ready</item>
+    </string-array>
+    <string-array name="Q_instruction">
+        <item></item>
+        <item>1) Mark the corners of the future home</item>
+        <item>2) Build walls</item>
+        <item>3) At the top and bottom of the window on the side of the entrance place the brick stairs</item>
+        <item>4) On the facade of the building make a window 2X5 blocks</item>
+        <item>5) Also make windows on the side. Do not forget about the brick stairs above the window and under it</item>
+        <item>6) From the quartz stairs begin to make a roof</item>
+        <item>7) Similarly, on the other side. Make a hole for the window</item>
+        <item>8) Finish the roof. The topmost layer of the roof is made of quartz slabs</item>
+        <item>9) Insert the glass into the window, place the door, build the garage door with a button</item>
+        <item>10) Finish the front windows</item>
+        <item>11) …and side</item>
+        <item>12) Make paths, bushes</item>
+        <item>13)</item>
+    </string-array>
+    <string-array name="Z_instruction">
+        <item></item>
+        <item>1) Build the base of the house as shown in the picture. Height - 2 blocks</item>
+        <item>2) Begin to build the walls of the house</item>
+        <item>3) On the reverse side build the exact same doorway</item>
+        <item>4) Make a layer of birch planks</item>
+        <item>5) Make 2 windows (left and right of the doorway)</item>
+        <item>6) On the right side of the house also make 2 windows</item>
+        <item>7) Rear 2 windows</item>
+        <item>8) Do not do windows on the left side of the house. Here we have a solid wall</item>
+        <item>9) Completely finish the walls using birch planks</item>
+        <item>10) Build the base of the veranda from blocks of quartz</item>
+        <item>11) Build poles with a height of 5 blocks and a staircase</item>
+        <item>12) On the reverse side build a similar veranda with a staircase, poles (height 4 blocks) and a fence</item>
+        <item>13) Connect the pillars to each other</item>
+        <item>14) On the front side of the house also connect the pillars with stained clay and put stairs on them. Do not forget to make a window sill from slabs and a fence!</item>
+        <item>15) Begin to make the windows of the second floor</item>
+        <item>16) Make a layer of quartz blocks</item>
+        <item>17) Make the base for the window of quartz blocks</item>
+        <item>18) Make the second window</item>
+        <item>19) On the right do so</item>
+        <item>20) And on the left like this</item>
+        <item>21) In front we make a canopy of stairs…</item>
+        <item>22) The stairs from which pass along the entire right and back of the house…</item>
+        <item>23) And end like this</item>
+        <item>24) Finish the canopy using quartz slabs</item>
+        <item>25) At the back, also using slabs, finish the roof over the veranda</item>
+        <item>26) Fix a little roof of the rear veranda on the left side of the house</item>
+        <item>27) Decorate the roof on the left…</item>
+        <item>28) And on the right</item>
+        <item>29) Build a roof at the back…</item>
+        <item>30) …And the front</item>
+        <item>31) Close the remaining holes with oak planks so…</item>
+        <item>32) …And so</item>
+        <item>33) Install the doors</item>
+        <item>34) Decorate the house with foliage around the perimeter</item>
+        <item>35) Make ceilings on the verandas and canopy</item>
+        <item>36) The house is ready</item>
+    </string-array>
+</resources>

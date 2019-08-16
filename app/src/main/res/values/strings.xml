@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">House Building Instructions</string>
+    <string name="title_activity_main">Home</string>
+    <string name="action_settings">Privacy policy</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="A_instruction_label">Simple Survival House</string>
+    <string name="B_instruction_label">Modern House</string>
+    <string name="C_instruction_label">Treehouse</string>
+    <string name="D_instruction_label">Medieval House 1</string>
+    <string name="E_instruction_label">Fountain</string>
+    <string name="F_instruction_label">Well</string>
+    <string name="G_instruction_label">Medieval House 2</string>
+    <string name="H_instruction_label">Small Fountain</string>
+    <string name="I_instruction_label">Armchair</string>
+    <string name="J_instruction_label">Piano</string>
+    <string name="K_instruction_label">Bunk Bed</string>
+    <string name="L_instruction_label">Computer Desk</string>
+    <string name="M_instruction_label">Cart</string>
+    <string name="N_instruction_label">Fireplace</string>
+    <string name="O_instruction_label">Lighthouse</string>
+    <string name="Q_instruction_label">Simple House</string>
+    <string name="Z_instruction_label">Cottage</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_tutorials">Tutorials</string>
+    <string name="menu_about">About</string>
+    <string name="category_last_tutorial">Last tutorial</string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_site">Our website</string>
+
+    <string name="cancel_answer">Cancel</string>
+    <string name = "internet_connection_error"> No connection to the Internet </string>
+    <string name = "internet_connection_error_title"> Launch is not possible </string>
+    <string name = "close_app">Close</string>
+    <string name="about">About</string>
+    <string name="version">Version: %s</string>
+    <string name="home_text">This application contains step-by-step instructions for building beautiful houses, various buildings, furniture, interior items and more in Minecraft. Each step has a detailed description, so even a person who does not know how to build beautifully can easily erect buildings that he will be proud of!</string>
+    <string name="open_btn">Open</string>
+    <string name="group_all">All</string>
+    <string name="group_houses">Houses</string>
+    <string name="group_medieval_houses">Medieval Houses</string>
+    <string name="group_fountains">Fountains</string>
+    <string name="group_outdoor_decorations">Outdoor Decorations</string>
+    <string name="group_house_decorations">House Decorations</string>
+    <string name="group_other_buildings">Other Buildings</string>
+    <string name="open_inst_btn">Open</string>
+    <string name="view_all_btn">View all</string>
+    <string name="search_hint">Search</string>
+</resources>

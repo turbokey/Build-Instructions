@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appodeal.networks:mintegral-mtgdownloads:9.11.01@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mintegral-mtgdownloads-9.11.01.aar/76a5c9ee89a5c0df3fe93d4b306f2957/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mintegral-mtgdownloads-9.11.01.aar/76a5c9ee89a5c0df3fe93d4b306f2957/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mintegral-mtgdownloads-9.11.01.aar/76a5c9ee89a5c0df3fe93d4b306f2957/jars/libs/classes-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
