@@ -60,15 +60,19 @@ public class InstructionFragment extends ListFragment {
         switch (id) {
             case 0:
                 letter = "A";
+                ((MainActivity)getActivity()).setWindowTitle(getString(R.string.A_instruction_label));
                 break;
             case 1:
                 letter = "B";
+                ((MainActivity)getActivity()).setWindowTitle(getString(R.string.B_instruction_label));
                 break;
             case 2:
                 letter = "C";
+                ((MainActivity)getActivity()).setWindowTitle(getString(R.string.C_instruction_label));
                 break;
             case 3:
                 letter = "D";
+                ((MainActivity)getActivity()).setWindowTitle(getString(R.string.D_instruction_label));
                 break;
             case 4:
                 letter = "E";
@@ -115,6 +119,8 @@ public class InstructionFragment extends ListFragment {
                 ((MainActivity)getActivity()).setWindowTitle(getString(R.string.O_instruction_label));
                 break;
             case 15:
+                letter = "P";
+                ((MainActivity)getActivity()).setWindowTitle(getString(R.string.P_instruction_label));
                 break;
             case 16:
                 letter = "Q";
@@ -199,6 +205,7 @@ public class InstructionFragment extends ListFragment {
                 ((MainActivity)getActivity()).setWindowTitle(getString(R.string.O_instruction_label));
                 break;
             case 15:
+                ((MainActivity)getActivity()).setWindowTitle(getString(R.string.P_instruction_label));
                 break;
             case 16:
                 ((MainActivity)getActivity()).setWindowTitle(getString(R.string.Q_instruction_label));

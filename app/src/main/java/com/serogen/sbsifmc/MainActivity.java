@@ -7,7 +7,9 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -37,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public static final int ID_GROUP_HOUSE_DECORATIONS = 5;
     public static final int ID_GROUP_OTHER = 6;
 
-    final int adFrequency = 3;
+    final int adFrequency = 6;
     int adCounter = 0;
 
     @Override
@@ -195,11 +197,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     protected boolean isOnline(){
-        String cs = Context.CONNECTIVITY_SERVICE;
-        ConnectivityManager cm = (ConnectivityManager) getSystemService(cs);
-        if (cm.getActiveNetworkInfo() == null){
-            return false;
-        }else {return true;}
+        ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo mobileInfo = cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+        boolean mobileDisabled = mobileInfo.getState() == NetworkInfo.State.DISCONNECTED
+                && (mobileInfo.getReason() == null || mobileInfo.getReason().equals("specificDisabled"));
+
+        WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
+        boolean wifiEnabled = wifiManager.isWifiEnabled();
+
+        return !mobileDisabled || wifiEnabled;
     }
 
 

@@ -80,6 +80,7 @@ public class InstructionsListFragment extends ListFragment {
                 list.add(new InstructionItemFromInstructionsList(R.drawable.m2,getString(R.string.M_instruction_label),true,12));
                 list.add(new InstructionItemFromInstructionsList(R.drawable.n3,getString(R.string.N_instruction_label),true,13));
                 list.add(new InstructionItemFromInstructionsList(R.drawable.o23,getString(R.string.O_instruction_label),true,14));
+                list.add(new InstructionItemFromInstructionsList(R.drawable.p28,getString(R.string.P_instruction_label),false,15));
                 list.add(new InstructionItemFromInstructionsList(R.drawable.q14,getString(R.string.Q_instruction_label),true,16));
                 list.add(new InstructionItemFromInstructionsList(R.drawable.z36,getString(R.string.Z_instruction_label),false,25));
                 break;
@@ -92,6 +93,7 @@ public class InstructionsListFragment extends ListFragment {
             case MainActivity.ID_GROUP_MEDIEVAL_HOUSES:
                 list.add(new InstructionItemFromInstructionsList(R.drawable.d18,getString(R.string.D_instruction_label),false,3));
                 list.add(new InstructionItemFromInstructionsList(R.drawable.g32,getString(R.string.G_instruction_label),false,6));
+                list.add(new InstructionItemFromInstructionsList(R.drawable.p28,getString(R.string.P_instruction_label),false,15));
                 break;
             case MainActivity.ID_GROUP_FOUNTAINS:
                 list.add(new InstructionItemFromInstructionsList(R.drawable.e21,getString(R.string.E_instruction_label),false,4));

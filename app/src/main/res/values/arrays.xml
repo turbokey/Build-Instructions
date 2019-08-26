@@ -250,6 +250,37 @@
         <item>22) Also make a door below</item>
         <item>23) The lighthouse is ready</item>
     </string-array>
+    <string-array name="P_instruction">
+        <item></item>
+        <item>1) Determine places for future columns</item>
+        <item>2) Build columns 4 blocks high</item>
+        <item>3) Build a wall from the front of the house</item>
+        <item>4) Build a wall in the back of the house</item>
+        <item>5) Build walls on the sides of the house</item>
+        <item>6) Add additional decorative elements around the window…</item>
+        <item>7) …And around the door</item>
+        <item>8) Add decorative elements from the end of the house. On the opposite side, do the same</item>
+        <item>9) Add decorative elements to the back</item>
+        <item>10) Build on top of oak wood</item>
+        <item>11) On each column place upside-down cobblestone stairs</item>
+        <item>12) On them build columns 4 blocks high</item>
+        <item>13) Build a wall of the second floor from the front of the house. On the opposite side, do the same</item>
+        <item>14) Add decorative elements. On the opposite side, do the same</item>
+        <item>15) Build the walls of the second floor on the sides of the house. On the opposite side, do the same</item>
+        <item>16) Add decorative elements. On the opposite side, do the same</item>
+        <item>17) It should turn out like this</item>
+        <item>18) At a distance from the post place cobblestone stairs…</item>
+        <item>19) …And, using only cobblestone stairs, build part of the roof. On the opposite side, do the same</item>
+        <item>20) Connect these two parts using cobblestone slabs</item>
+        <item>21) From the front side make the border of the roof of 4 cobblestone stairs and several cobblestone slabs. On the opposite side, do the same</item>
+        <item>22) Increase the height of the column by 1 block, place spruce boards and several boards. On the opposite side, do the same</item>
+        <item>23) Build the bottom of the roof</item>
+        <item>24) Finish the roof. On the opposite side, do the same</item>
+        <item>25) On the sides of the house under the roof close all the holes</item>
+        <item>26) On the top of the roof place the stairs</item>
+        <item>27) Inside, make the floor of the first and second floors, connect the floors with a ladder</item>
+        <item>28) Add oak trapdoors, flowers and the house is ready!</item>
+    </string-array>
     <string-array name="Q_instruction">
         <item></item>
         <item>1) Mark the corners of the future home</item>

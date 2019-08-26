@@ -18,6 +18,7 @@
     <string name="M_instruction_label">Телега</string>
     <string name="N_instruction_label">Камин</string>
     <string name="O_instruction_label">Маяк</string>
+    <string name="P_instruction_label">Средневековый дом 3</string>
     <string name="Q_instruction_label">Простой дом</string>
     <string name="Z_instruction_label">Коттедж</string>
     <string name="menu_tutorials">Все инструкции</string>
@@ -28,7 +29,7 @@
     <string name="menu_site">Наш сайт</string>
 
     <string name="cancel_answer">Отмена</string>
-    <string name="internet_connection_error">Отсутствует подключение к Интернету</string>
+    <string name="internet_connection_error">Необходимо включить WiFi или мобильные данные, чтобы приложение работало</string>
     <string name="internet_connection_error_title">Запуск невозможен</string>
     <string name="close_app">Закрыть</string>
     <string name="about">О программе</string>

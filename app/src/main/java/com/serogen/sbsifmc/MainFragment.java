@@ -28,7 +28,7 @@ public class MainFragment extends Fragment {
         view.findViewById(R.id.home_open_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((MainActivity)getActivity()).onInstructionItemClicked(3);
+                ((MainActivity)getActivity()).onInstructionItemClicked(15);
             }
         });
         view.findViewById(R.id.home_group_1).setOnClickListener(new View.OnClickListener() {

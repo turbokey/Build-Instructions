@@ -171,7 +171,7 @@
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/d10"
+                        android:src="@drawable/p28"
                         android:scaleType="fitCenter"
                         android:adjustViewBounds="true" />
                     <LinearLayout
@@ -187,7 +187,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="@string/D_instruction_label"
+                                android:text="@string/P_instruction_label"
                                 style="@style/FontTheme"
                                 android:id="@+id/tv"/>
                         </RelativeLayout>

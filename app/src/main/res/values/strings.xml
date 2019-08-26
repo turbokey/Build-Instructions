@@ -20,6 +20,7 @@
     <string name="M_instruction_label">Cart</string>
     <string name="N_instruction_label">Fireplace</string>
     <string name="O_instruction_label">Lighthouse</string>
+    <string name="P_instruction_label">Medieval House 3</string>
     <string name="Q_instruction_label">Simple House</string>
     <string name="Z_instruction_label">Cottage</string>
     <string name="menu_home">Home</string>
@@ -30,7 +31,7 @@
     <string name="menu_site">Our website</string>
 
     <string name="cancel_answer">Cancel</string>
-    <string name = "internet_connection_error"> No connection to the Internet </string>
+    <string name = "internet_connection_error">You need to enable WiFi or mobile data for the application to work</string>
     <string name = "internet_connection_error_title"> Launch is not possible </string>
     <string name = "close_app">Close</string>
     <string name="about">About</string>
