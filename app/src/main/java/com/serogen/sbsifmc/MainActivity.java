@@ -199,8 +199,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected boolean isOnline(){
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo mobileInfo = cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
-        boolean mobileDisabled = mobileInfo.getState() == NetworkInfo.State.DISCONNECTED
-                && (mobileInfo.getReason() == null || mobileInfo.getReason().equals("specificDisabled"));
+        boolean mobileDisabled = false;
+        try {
+            mobileDisabled = mobileInfo.getState() == NetworkInfo.State.DISCONNECTED
+                    && (mobileInfo.getReason() == null || mobileInfo.getReason().equals("specificDisabled"));
+        } catch (Exception e){}
+
 
         WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
         boolean wifiEnabled = wifiManager.isWifiEnabled();
